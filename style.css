@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+}
+
+section{
+	 background:rgb(28, 54, 87);
+}
+.grid{
+	display: grid;
+	grid-template-rows: repeat(2,1fr);
+}
+.line{
+	width:70%;
+	height:3px;
+	background: grey;
+	margin:2em auto;
+}
+.social{
+	display: grid;
+	grid-template-columns: repeat(4,80px);
+	justify-content:center;
+}
+footer{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top:5em;
+    width:100%;
+    color:grey;
+}
